@@ -19,6 +19,8 @@ public class MathTableClient {
 			MathTableService port = s.getPort(portname, MathTableService.class);
 			SimpleMathTable table = port.getTable(new Integer(10));
 			System.out.println(table.toString());
+			
+			System.out.println("sample modif for testing purpose");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
