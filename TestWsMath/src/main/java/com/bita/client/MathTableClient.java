@@ -21,6 +21,7 @@ public class MathTableClient {
 			System.out.println(table.toString());
 			
 			System.out.println("sample modif for testing purpose");
+			System.out.println("modifications made from server");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
