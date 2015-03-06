@@ -10,6 +10,7 @@ public class MathTable {
 	public MathTable() {
 		this.number = 1;
 		this.setArray(produceTable(getNumber()));
+		System.out.println("commit in master");
 	}
 
 	
