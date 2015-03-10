@@ -11,6 +11,6 @@ public class MathPublisher {
 		final String url = "http://localhost:9999/math";
 		System.out.println("Publishing Math Service at endpoint " + url);
 		Endpoint.publish(url, new MathTableImpl());
-		System.out.println("done");
+		System.out.println("done today");
 	}
 }
