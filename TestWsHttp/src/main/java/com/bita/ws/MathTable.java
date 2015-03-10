@@ -6,6 +6,7 @@ public class MathTable {
 	private String name = "MathTable";
 	private int number;
 	private int[] array;
+	
 
 	public MathTable() {
 		this.number = 1;
